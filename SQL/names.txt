@@ -1,0 +1,8 @@
+serp-vacancy__date
+link serp-vacancy__source stat__click
+vacancy__salary
+heading heading_level_3
+address address_empty_yes serp-vacancy__settlement
+metro-item__name
+link link_nav_yes link_minor_yes i-bem
+serp-vacancy__requirements

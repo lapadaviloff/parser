@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS `metro` (
+  `id` int(10) NOT NULL AUTO_INCREMENT,
+  `adress` varchar(255) NOT NULL,
+  `geocode` varchar(255) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+LOAD DATA LOCAL INFILE 'metro.csv'
+ INTO TABLE metro
+ FIELDS TERMINATED BY ';'
+ LINES TERMINATED BY '\n'
+ (adress,geocode);
